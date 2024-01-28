@@ -5,6 +5,4 @@ app = Flask(__name__)
 
 @app.route('/time')
 def get_current_time():
-    return {'time': time.time()}
-
-print(time)
+    return {'time': 10213210}
